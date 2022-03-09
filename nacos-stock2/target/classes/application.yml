@@ -1,0 +1,14 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: nacos-stock
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: f09c21bb-14e2-4377-a2a0-78664423967a
+        cluster-name: JAVA1234
